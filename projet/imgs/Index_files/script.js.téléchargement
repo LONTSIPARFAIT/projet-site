@@ -1,0 +1,15 @@
+alert('division de deux nombres');
+
+a = prompt ("Entré votre dividente");
+a = parseFloat (a) ;
+
+// b = prompt ("Entré votre diviseur");
+// b =parseFloat (b) ;
+
+if (a % 2 == 0){
+   alert ("no" ) ;
+
+} else  {
+ 
+alert ("div 2" ) ;
+}

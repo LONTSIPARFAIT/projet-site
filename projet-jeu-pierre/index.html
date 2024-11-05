@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./style.css">
+  <title>Pierre-Papier-Ciseaux</title>
+</head>
+<body>
+  <div class="score">
+    <p>Vous</p>
+    <p>Ordinateur</p>
+    <p id="score-joueur">0</p>
+    <p id="score-ordinateur">0</p>
+    <div id="reset">Recommencer</div>
+  </div>
+
+  <div class="action">
+    <p id="message">A vous de jouer !</p>
+    <div id="next">Tour suivant</div>
+    <div class="jeu">
+
+      <div class="choix">
+
+        <div class="button btn-joueur" id="pierre">
+          <img src="./imgs/pierre.png" alt="pierre">
+          <p>Pierre</p>
+        </div>
+
+        <div class="button btn-joueur" id="feuille">
+          <img src="./imgs/papier.png" alt="papier">
+          <p>Papier</p>
+        </div>
+
+        <div class="button btn-joueur" id="ciseaux">
+          <img src="./imgs/ciseaux.png" alt="ciseaux">
+          <p>Ciseaux</p>
+        </div>
+
+      </div>
+
+      <div class="choix">
+
+        <div class="button btn-ordi" id="opierre">
+          <img src="./imgs/pierre.png" alt="pierre">
+          <p>Pierre</p>
+        </div>
+
+        <div class="button btn-ordi" id="ofeuille">
+          <img src="./imgs/papier.png" alt="papier">
+          <p>Feuille</p>
+        </div>
+
+        <div class="button btn-ordi" id="ociseaux">
+          <img src="./imgs/ciseaux.png" alt="ciseaux">
+          <p>Ciseaux</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="css">
+    <a href="./ppp/index.html">Petit CSS</a>
+  </div>
+  <div class="back">
+    <a href="/Page-accueil.html"><i class='bx bxs-left-arrow-square'>Back</i></a>
+  </div>
+
+  <div class="copy">
+    <p>&copy; Perfect-Coding Tous droits reservés-2024</p>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

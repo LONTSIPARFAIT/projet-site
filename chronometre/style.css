@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Roboto:wght@100;300;400&display=swap');
+ 
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Roboto',sans-serif;
+ }
+
+ body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #21b66f;
+ }
+ .chronometre{
+  background: #fff;
+  padding: 10px;
+  border-radius: 7px;
+  width: 400px;
+  text-align: center;
+ }
+ .tim{
+  margin: auto;
+  width: 100%;
+  border: 1px solid #999;
+  border-radius: 7px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 10px;
+ }
+ .tim span{
+  font-family: 'Dancing Script', sans-serif;
+  padding: 5px;
+ }
+ .controls{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+button{
+  background: #1d9c5e;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 31%;
+  border: 0;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(0.9);
+}
+
+.btn{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ddd;
+  color: #999;
+  margin: 15px;
+}

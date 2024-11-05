@@ -1,0 +1,18 @@
+.elt{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blue;
+    color: yellow;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}G
+B
+E

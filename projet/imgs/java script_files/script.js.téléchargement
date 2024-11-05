@@ -1,0 +1,31 @@
+
+
+//let a = prompt("entrer le le nombre");
+//if(a>0){
+   // alert("a");
+//}
+
+//alert("ecrire ALKASHI 20fois");
+//for(let i=0; i<20; i++){
+   //document.write("ALKASHI <br>");
+   //document.write("i="+i+"==> ALKASHI <br>");
+//}
+
+//alert ("produit de deux nombre");
+//let N = prompt("entrer le premeir nombre");
+//let N1 = parseInt (N);
+
+//et n = prompt("entrer le deuxieme nombre");
+//let n1 = parseInt (n);
+ 
+   //let multiplication = N1*n1 ;
+   //alert(multiplication ); 
+
+ alert("somme de plusieurs nombres")
+   let i = 1;
+   let somme = 0 ;
+   while (i<=10){
+    somme = somme + i ;
+    i++ ;
+    document.write(somme)
+   }

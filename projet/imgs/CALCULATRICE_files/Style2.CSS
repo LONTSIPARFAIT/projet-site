@@ -1,0 +1,65 @@
+.btn{
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color:black;
+    background-color:orange;
+}
+.plus {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20;
+}
+.time{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25;
+}
+.minus{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25;
+}
+.slash{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20;
+}
+.egal{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20;
+}
+td input{
+    width: 300px;
+    height: 60px;
+    text-align: right;
+    font-size: 30;
+}
+.zero{
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
+#table{
+    background-color: black;
+}
