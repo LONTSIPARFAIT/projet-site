@@ -16,7 +16,7 @@ const uneHeureEnMs = 1000 * 60 * 60;
 const uneMinuteEnMs = 1000 * 60;
 
 // const newYear = Date.now() - (dateOffsetInMinutes * uneMinuteEnMs) + 2000;
-const newYear = new Date("2025");
+const newYear = new Date("2026");
 
 const getCountdown = () => {
 
